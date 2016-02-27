@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="angry_00.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="H3R-gc-IOt">
+                                <rect key="frame" x="16" y="0.0" width="568" height="600"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwT-vz-qOY">
+                                <rect key="frame" x="16" y="420" width="60" height="60"/>
+                                <state key="normal" image="larry.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doRun:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BjD-ns-D38"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKU-9k-YH5">
+                                <rect key="frame" x="524" y="420" width="60" height="60"/>
+                                <state key="normal" image="pawn.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doRun:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4pW-iC-Tsd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hi4-ww-KZx">
+                                <rect key="frame" x="524" y="480" width="60" height="60"/>
+                                <state key="normal" image="pie.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doRun:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xXh-0T-i4Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B69-t1-RZ6">
+                                <rect key="frame" x="524" y="540" width="60" height="60"/>
+                                <state key="normal" image="cynbals.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doRun:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GNc-aK-x7C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="26R-aE-mv3">
+                                <rect key="frame" x="16" y="540" width="60" height="60"/>
+                                <state key="normal" image="milk.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doRun:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Xe-Jf-Zjz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6fy-Tt-x21">
+                                <rect key="frame" x="16" y="480" width="60" height="60"/>
+                                <state key="normal" image="fart.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="doRun:" destination="BYZ-38-t0r" eventType="touchUpInside" id="piq-NP-3nW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ImI-c4-Uvm">
+                                <rect key="frame" x="151" y="107" width="298" height="193"/>
+                                <state key="normal" title="knockout">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="anotherRunMethod:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p32-oL-BoF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="B69-t1-RZ6" firstAttribute="top" secondItem="Hi4-ww-KZx" secondAttribute="bottom" id="25G-SA-LDO"/>
+                            <constraint firstItem="H3R-gc-IOt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="3pV-AI-wdQ"/>
+                            <constraint firstItem="Hi4-ww-KZx" firstAttribute="top" secondItem="wKU-9k-YH5" secondAttribute="bottom" id="6Tp-vN-A8D"/>
+                            <constraint firstItem="H3R-gc-IOt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="8qp-Up-YwG"/>
+                            <constraint firstItem="26R-aE-mv3" firstAttribute="top" secondItem="6fy-Tt-x21" secondAttribute="bottom" id="EDn-9I-Z4W"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hi4-ww-KZx" secondAttribute="trailing" id="LCk-ry-kAU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="H3R-gc-IOt" secondAttribute="bottom" id="OhU-Ws-Ea6"/>
+                            <constraint firstItem="zwT-vz-qOY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PeK-eG-TSI"/>
+                            <constraint firstItem="H3R-gc-IOt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Qob-S0-G99"/>
+                            <constraint firstItem="6fy-Tt-x21" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="R3k-mB-mHq"/>
+                            <constraint firstItem="26R-aE-mv3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="WNL-LS-p69"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="B69-t1-RZ6" secondAttribute="trailing" id="aGl-uf-GlL"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wKU-9k-YH5" secondAttribute="trailing" id="cgt-j7-otz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H3R-gc-IOt" secondAttribute="trailing" id="gli-gA-br1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="26R-aE-mv3" secondAttribute="bottom" id="hJR-Eo-0j8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H3R-gc-IOt" secondAttribute="trailing" id="hbD-Jt-4qS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="B69-t1-RZ6" secondAttribute="bottom" id="mNP-BJ-5uB"/>
+                            <constraint firstItem="6fy-Tt-x21" firstAttribute="top" secondItem="zwT-vz-qOY" secondAttribute="bottom" id="mYH-kd-qRf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="H3R-gc-IOt" secondAttribute="bottom" id="mxi-aQ-hun"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="H3R-gc-IOt" secondAttribute="trailing" constant="-16" id="sVO-Xp-qnn"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="hbD-Jt-4qS"/>
+                                <exclude reference="sVO-Xp-qnn"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="coreImage" destination="H3R-gc-IOt" id="wsr-1m-H9B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="angry_00.jpg" width="640" height="1024"/>
+        <image name="cynbals.png" width="60" height="60"/>
+        <image name="fart.png" width="60" height="60"/>
+        <image name="larry.png" width="60" height="60"/>
+        <image name="milk.png" width="60" height="60"/>
+        <image name="pawn.png" width="60" height="60"/>
+        <image name="pie.png" width="60" height="60"/>
+    </resources>
+</document>
